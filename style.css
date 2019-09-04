@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300&display=swap');
+body{
+    color: #626262;
+    font-family: "Playfair Display";
+    font-size: 14px;
+    max-width: 1061px;
+    margin: 67px auto 0px;
+}
+.name{
+color: #000000;
+font-family: Inconsolata;
+font-size: 30px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 6px;
+float: left;
+}
+.nav{
+    float: right;
+}
+.link{
+    text-decoration: none;
+    color: #626262;
+    line-height: 24px;
+}
+.nav__item{
+    display: inline-block;
+    vertical-align: top;
+}
+.nav .nav__item {
+    margin-left: 100px;
+}
+.clearfix{
+    clear: both;
+}
+.img{
+    margin-top: 71px;
+}
+.main{
+    margin: 97px 89px 112px 79px;
+}
+.text{
+    color: #b4ad9e;
+    font-family: Ubuntu;
+}
+.title{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.article{
+    line-height: 24px;
+    margin-bottom: 45px;
+}
+.button{
+    display: block;
+    border: 1px solid #626262;
+    background-color: white;
+    padding: 22px 34px;
+    color: #626262;
+    font-family: "Playfair Display";
+    font-size: 20px;
+    line-height: 24px;
+    margin: 70px auto;
+}
+.footer{
+    background-color: #f0f0f0;
+    padding: 40px 5px 40px 80px;
+}
+.footer .link{
+    color: #000000;
+}
+.footer__nav1{
+    float: left;
+}
+.footer__nav1 .nav__item{
+    margin-right: 17px;
+}
+.footer__nav2{
+    float: right;
+}
+.footer__nav2 .nav__item{
+    margin-right: 17px;
+}
